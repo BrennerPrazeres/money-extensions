@@ -4,6 +4,25 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtensionBrennerDeveloper</PackageId>
+    <Version>1.0.0</Version>
+    <Licence>MIT</Licence>
+    <Authors>Brenner Prazeres</Authors>
+    <Company>Brenner Developer</Company>
+    <PackageDescription>Extension to convert decimal to integer</PackageDescription>
+    <Description>Extension to convert decimal to integer</Description>
+    <RepositoryUrl>https://github.com/BrennerPrazeres/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/BrennerPrazeres/money-extensions</PackageProjectUrl>
+    <PackageLicenceExpression>MIT</PackageLicenceExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>money;int;decimal;converter</PackageTags>
+    <Title>MoneyExtensionBrennerDeveloper</Title>
+    <Summary>Extension to convert decimal to integer</Summary>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
