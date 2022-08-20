@@ -9,13 +9,13 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
-  steps:
-    uses: actions/checkout@main
+    steps:
+    - uses: actions/checkout@main
 
-  - name: Set up .NEt Core
-    uses: actions/setup-dotnet@v2
-    with:
-      dotnet-version: '6.0.x'
+    - name: Set up .NEt Core
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: '6.0.x'
 
     - name: Build with dotnet
       run: dotnet build --configuration Release
