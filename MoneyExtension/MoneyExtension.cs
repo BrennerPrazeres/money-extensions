@@ -8,7 +8,7 @@ public static class Money
             return 0;
         }
 
-        var text = amount.ToString("N2").Replace(",", "").Replace(".", "");
+        var text = amount.ToString("N2").Replace(",","").Replace(".","");
 
         if (string.IsNullOrEmpty(text))
         {
